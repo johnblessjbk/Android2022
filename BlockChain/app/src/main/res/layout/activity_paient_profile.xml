@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".DOCTOR.PaientProfile">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_gravity="right"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_baseline_keyboard_double_arrow_left_24"
+        android:layout_height="wrap_content"
+        android:id="@+id/backdoctore"/>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/profile"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/profile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent" />
+
+    <LinearLayout
+        android:visibility="gone"
+
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_margin="0dp"
+            android:layout_height="50dp">
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:src="@drawable/circle"
+                android:layout_width="20dp"
+                android:layout_height="20dp"/>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:text="Name"
+                android:layout_marginLeft="50dp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"
+        android:text="Patient Name"
+        android:layout_marginLeft="50dp"
+android:fontFamily="serif-monospace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginLeft="50dp"
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:src="@drawable/point"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:text="Varun VB"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:id="@+id/namep"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:text="Patient ID"
+        android:layout_marginLeft="50dp"
+        android:fontFamily="serif-monospace"
+        android:textSize="16dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginLeft="50dp"
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:src="@drawable/point"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:text="534534"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:id="@+id/idp"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="30dp"
+        android:text="Patient Email"
+        android:layout_marginLeft="50dp"
+        android:fontFamily="serif-monospace"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginLeft="50dp"
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:src="@drawable/point"/>
+        <TextView
+            android:id="@+id/emailp"
+            android:layout_marginTop="10dp"
+            android:text="Varun@gmail.com"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="30dp"
+        android:text="Patient Age"
+        android:layout_marginLeft="50dp"
+        android:fontFamily="serif-monospace"
+        android:textSize="16dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginLeft="50dp"
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:src="@drawable/point"/>
+        <TextView
+            android:id="@+id/agep"
+            android:layout_marginTop="10dp"
+            android:text="24"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="30dp"
+        android:text="Patient Phone Number"
+        android:layout_marginLeft="50dp"
+        android:fontFamily="serif-monospace"
+        android:textSize="16dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginLeft="50dp"
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:src="@drawable/point"/>
+        <TextView
+            android:id="@+id/phonep"
+            android:layout_marginTop="10dp"
+            android:text="24"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <TextView
+        android:textSize="16dp"
+
+        android:fontFamily="serif-monospace"
+        android:layout_marginTop="30dp"
+        android:text="Patient Address"
+        android:layout_marginLeft="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginLeft="50dp"
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:src="@drawable/point"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:text="kerla-kochin -676756"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:id="@+id/addresp"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

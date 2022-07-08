@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".COMMON.ToggleActivity">
+<ToggleButton
+    android:layout_margin="20dp"
+    android:text="Fisrt"
+    android:id="@+id/FTOG"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+/>
+    <ToggleButton
+        android:id="@+id/STOG"
+        android:layout_margin="20dp"
+        android:text="Second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <androidx.cardview.widget.CardView
+        android:id="@+id/CARDFIRST"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:padding="20dp"
+            android:text="Hello First Card View"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/SECCARD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:padding="20dp"
+            android:text="Hello SEcond Card Viedw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </androidx.cardview.widget.CardView>
+
+
+    <EditText
+        android:hint=" SElect Date"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mydate"/>
+</LinearLayout>

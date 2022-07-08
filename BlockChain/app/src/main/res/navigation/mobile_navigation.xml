@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.blockchain.USER.AddPatient"
+        android:label="AddPatient"
+        tools:layout="@layout/fragment_addpatient" />
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.blockchain.USER.CheckPatient"
+        android:label="Search Patient"
+        tools:layout="@layout/fragment_checkpatient" />
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.blockchain.USER.HistoryPatient"
+        android:label="Patient History"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/navigation_viewdata"
+        android:name="com.example.blockchain.USER.DataReport"
+        android:label="Report"
+        tools:layout="@layout/fragment_data_report" />
+</navigation>
